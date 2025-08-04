@@ -1,6 +1,8 @@
 # Identificación de Producto Favorito por Cliente para campañas de publicidad por email
 Este proyecto permite identificar el producto favorito de cada cliente a partir de su historial de compras, y generar un archivo CSV con información útil para futuras campañas personalizadas, reportes o análisis de comportamiento de compra.
 
+La consulta SQL utiliza una **CTE (Common Table Expression)** para organizar y simplificar la lógica que calcula el producto más comprado por cliente.
+
 ## 📊 Objetivo
 Determinar, para cada cliente, el producto que más veces compró, con el fin de:
 - Conocer las preferencias individuales
